@@ -9,6 +9,10 @@ from  ecomet_i2c_sensors.tsl2591 import tsl2591
 # Configuration
 import config
 
+# Watchdog
+from watchdog.observers import Observer
+from watchdog.events import LoggingEventHandler
+
 # Opensensemap
 import requests
 import json
